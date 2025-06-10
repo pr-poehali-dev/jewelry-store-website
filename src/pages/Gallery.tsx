@@ -76,6 +76,88 @@ const Gallery = () => {
             </div>
           </div>
 
+          <div className="mt-12">
+            <div className="bg-white rounded-2xl shadow-lg p-8 max-w-4xl mx-auto">
+              <h3 className="text-2xl font-semibold text-gray-800 mb-6 text-center">
+                Лицензии и сертификаты
+              </h3>
+
+              <div className="grid md:grid-cols-2 gap-6 mb-8">
+                <div className="bg-gradient-to-br from-amber-50 to-yellow-50 rounded-xl p-6 border border-amber-200">
+                  <div className="flex items-center mb-4">
+                    <div className="w-12 h-12 bg-amber-400 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
+                      📜
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-800">
+                        Лицензия на торговлю
+                      </h4>
+                      <p className="text-sm text-gray-600">№ ЛТ-2023-001</p>
+                    </div>
+                  </div>
+                  <p className="text-gray-700 text-sm">
+                    Официальная лицензия на розничную торговлю ювелирными
+                    изделиями из драгоценных металлов и камней.
+                  </p>
+                </div>
+
+                <div className="bg-gradient-to-br from-amber-50 to-yellow-50 rounded-xl p-6 border border-amber-200">
+                  <div className="flex items-center mb-4">
+                    <div className="w-12 h-12 bg-amber-400 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
+                      💎
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-800">
+                        Сертификат качества
+                      </h4>
+                      <p className="text-sm text-gray-600">№ СК-2023-789</p>
+                    </div>
+                  </div>
+                  <p className="text-gray-700 text-sm">
+                    Международный сертификат качества драгоценных камней и
+                    металлов по стандарту ISO 9001.
+                  </p>
+                </div>
+
+                <div className="bg-gradient-to-br from-amber-50 to-yellow-50 rounded-xl p-6 border border-amber-200">
+                  <div className="flex items-center mb-4">
+                    <div className="w-12 h-12 bg-amber-400 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
+                      🏆
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-800">
+                        Мастерская-партнер
+                      </h4>
+                      <p className="text-sm text-gray-600">№ МП-2023-456</p>
+                    </div>
+                  </div>
+                  <p className="text-gray-700 text-sm">
+                    Авторизованная мастерская с правом изготовления изделий из
+                    золота 585 и 750 пробы.
+                  </p>
+                </div>
+
+                <div className="bg-gradient-to-br from-amber-50 to-yellow-50 rounded-xl p-6 border border-amber-200">
+                  <div className="flex items-center mb-4">
+                    <div className="w-12 h-12 bg-amber-400 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4">
+                      🔒
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-800">
+                        Страхование
+                      </h4>
+                      <p className="text-sm text-gray-600">№ СТР-2023-321</p>
+                    </div>
+                  </div>
+                  <p className="text-gray-700 text-sm">
+                    Полное страхование всех изделий на сумму до 5 млн рублей при
+                    изготовлении и доставке.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="mt-12 text-center">
             <div className="bg-white rounded-2xl shadow-lg p-8 max-w-2xl mx-auto">
               <h3 className="text-2xl font-semibold text-gray-800 mb-4">
