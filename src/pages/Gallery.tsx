@@ -55,6 +55,27 @@ const Gallery = () => {
             </div>
           </div>
 
+          <div className="mt-8">
+            <div className="group relative overflow-hidden rounded-2xl shadow-2xl bg-white">
+              <div className="aspect-square overflow-hidden">
+                <img
+                  src="https://cdn.poehali.dev/files/7983e457-bebe-416c-9e1d-6e631f473ac4.png"
+                  alt="Элегантные украшения с камнями"
+                  className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-gray-800 mb-2">
+                  "Королевская роскошь"
+                </h3>
+                <p className="text-gray-600">
+                  Изысканный комплект украшений с натуральными камнями.
+                  Авторская работа с филигранной обработкой металла.
+                </p>
+              </div>
+            </div>
+          </div>
+
           <div className="mt-12 text-center">
             <div className="bg-white rounded-2xl shadow-lg p-8 max-w-2xl mx-auto">
               <h3 className="text-2xl font-semibold text-gray-800 mb-4">
